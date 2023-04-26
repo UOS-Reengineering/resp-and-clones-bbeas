@@ -27,9 +27,16 @@ public class Branch {
     public void setOpeningTime(String openingTime) {
         this.openingTime = openingTime;
     }
-
+    
     public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
-
+    
+    public void changeOpeningTime(String openingTime) {
+        setOpeningTime(openingTime);
+    }
+    
+    public void registerTelephone(String telephone) {
+        setTelephone(telephone);
+    }
 }
